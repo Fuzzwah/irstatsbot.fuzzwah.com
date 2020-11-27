@@ -38,95 +38,79 @@ Many commands have a shorter alias that can be used.
 
 ### Standard Commands:
 ### `!series [category]`
-    Displays a table of series and the abbreviations to use for each of them in all the other commands. The category must be provided; either **road**, **oval**, **dirt**, **rx**, or **offroad**.
+> Displays a table of series and the abbreviations to use for each of them in all the other commands. The category must be provided; either **road**, **oval**, **dirt**, **rx**, or **offroad**.
 ### `!schedule [series abbrev]`
-    Track schedule for a series. 
-
-    Alias: `!sched`
+> Track schedule for a series. 
+> Alias: `!sched`
 ### `!driver [driver name] (category) (w#) (##s#)`
-    Returns statistics about a driver's current season. If no category is provided the bot will return the output for the category that the driver has raced the most this season.
-
-    Alias: `!dvr`
+> Returns statistics about a driver's current season. If no category is provided the bot will return the output for the category that the driver has raced the most this season.
+> Alias: `!dvr`
 ### `!season [series abbrev] [driver name] (##s#)`
-    Returns information about a driver for a single series.
+> Returns information about a driver for a single series.
 ### `!lastrace (category) (series abbrev)`
-    Returns information about a driver's most recent race.
+> Returns information about a driver's most recent race.
 ### `!championship [series abbrev] (##s#)`
-    Top 30 championship standings. 
-
-    Alias: `!champ`
+> Top 30 championship standings. 
+> Alias: `!champ`
 ### `!strengthoffield [series abbrev] (w#) (##s#)`
-    Strength of field heatmap for the series. 
-
-    Alias: `!sof`
+> Strength of field heatmap for the series. 
+> Alias: `!sof`
 ### `!officialsessions [series abbrev] (w#) (##s#)`
-    Official session count heatmap for the series. 
-
-    Alias: `!offs`
+> Official session count heatmap for the series. 
+> Alias: `!offs`
 ### `!participation [series abbrev] (w#) (##s#)`
-    Participation heatmap for the series. 
-
-    Alias: `!part`
+> Participation heatmap for the series. 
+> Alias: `!part`
 ### `!qualifyinglaps [series abbrev] (w#) (##s#)`
-    Best qualifying times. 
-
-    Alias: `!qlaps`
+> Best qualifying times. 
+> Alias: `!qlaps`
 ### `!racelaps [series abbrev] (w#) (##s#)`
-    The week's best race lap times. 
-
-    Alias: `!rlaps`
+> The week's best race lap times. 
+> Alias: `!rlaps`
 ### `!averageracelaps [series abbrev] (w#) (##s#)`
-    The week's best average race lap times. 
-
-    Alias: `!arlaps`
+> The week's best average race lap times. 
+> Alias: `!arlaps`
 
 ### Utils:
 ### `!litres2gallons [number]`
-    Converts gallons to litres. 
-
-    Alias: `!l2g`
+> Converts gallons to litres. 
+> Alias: `!l2g`
 ### `!celsius2fahrenheit [number]`
-    Converts celsius to fahrenheit. 
-
-    Alias: `!c2f`
+> Converts celsius to fahrenheit. 
+> Alias: `!c2f`
 ### `!gallons2litres [number]`
-    Converts gallons to litres. 
-
-    Alias: `!g2l`
+> Converts gallons to litres. 
+> Alias: `!g2l`
 ### `!fahrenheit2celsius [number]`
-    Converts fahrenheit to celsius. 
-
-    Alias: `!f2c`
+> Converts fahrenheit to celsius. 
+> Alias: `!f2c`
 ### `!kph2mph [number]`
-    Converts kilometers per hour to miles per hour. 
-
-    Alias: `!k2m`
+> Converts kilometers per hour to miles per hour. 
+> Alias: `!k2m`
 ### `!mph2kph [number]`
-    Converts miles per hour to kilometers per hour. 
-
-    Alias: `!m2k`
+> Converts miles per hour to kilometers per hour. 
+> Alias: `!m2k`
 
 ### Team Subscriber Admin Commands:
 ### `!default_series [series abbrev]`
-    Sets the default series for a discord guild.
+> Sets the default series for a discord guild.
 ### `!default_category [category]`
-    Sets the default category for a discord guild.
+> Sets the default category for a discord guild.
 ### `!add_driver [driver name] [color hex] [@discord handle]`
-    Adds a driver to a discord guild.
+> Adds a driver to a discord guild.
 ### `!remove_driver [driver name]`
-    Removes a driver to a discord guild.
+> Removes a driver to a discord guild.
 ### `!update_driver [driver name] [color hex]`
-    Updates a driver's highlight color.
+> Updates a driver's highlight color.
 
 ### Subscription Required Commands:
 ### `!points [series abbrev] (##s#)`
-    Championship points of the team's drivers. 
-
-    Alias: `!pts`
+> Championship points of the team's drivers. 
+> Alias: `!pts`
 ### `!week [series abbrev] (w#) (##s#)`
-    Current week's points of the team's drivers.
+> Current week's points of the team's drivers.
 ### `!drivers`
-    Returns information about the team's drivers.
+> Returns information about the team's drivers.
 
 
 
