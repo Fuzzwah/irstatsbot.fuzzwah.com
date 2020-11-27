@@ -26,7 +26,7 @@ There are also a number of subcriber only commands that can any public Discord s
 
 The bot will highlight the subscribed driver in various outputs, as shown in the [screenshots](screenshots.html)]. If you're interested in supporting the project and getting access to the subscriber only commands, please visit my Patreon page and select the [iRacing Stats Discord Bot: Driver Access](https://www.patreon.com/join/RobCrouch/checkout?rid=5846474) member level.
 
-## [Available Commands](#commands)
+## Commands
 
 In the examples below, square brackets have been used to show the required arguments for each command. Round brackets have been used to show optional arguments that can be provided to provide more fine grained responses.
 
