@@ -20,13 +20,13 @@ I have set up a Patreon page to allow people to subscribe to help cover the cost
 
 If you're interested in adding the bot to your team's Discord please visit my Patreon page and select the [iRacing Stats Discord Bot: Team Access](https://www.patreon.com/join/RobCrouch/checkout?rid=5846445) member level.
 
-## Individual subscriber commands
+## Individual subscribers
 
 There are also a number of subcriber only commands that can any public Discord server, such as the iRacing Stats Discord, iRacing Open Wheel Hub, iRacing Chat, GermanSimRacing.de, and CTC Lotus 79.
 
 The bot will highlight the subscribed driver in various outputs, as shown in the [screenshots](screenshots.html)]. If you're interested in supporting the project and getting access to the subscriber only commands, please visit my Patreon page and select the [iRacing Stats Discord Bot: Driver Access](https://www.patreon.com/join/RobCrouch/checkout?rid=5846474) member level.
 
-## Available Commands
+## [Available Commands](#commands)
 
 In the examples below, square brackets have been used to show the required arguments for each command. Round brackets have been used to show optional arguments that can be provided to provide more fine grained responses.
 
