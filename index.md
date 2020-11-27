@@ -30,7 +30,7 @@ The bot will highlight the subscribed driver in various outputs, as shown in the
 
 In the examples below, square brackets have been used to show the required arguments for each command. Round brackets have been used to show optional arguments that can be provided to provide more fine grained responses.
 
-For some commands you can specify a particular week or season. To select a week you include a **w\#** argument, where the # is replaced by the week you want; for example **w1** for week 1 of the season. To select a season you include a **\#\#s\#** argument, where the first two numbers are the year and the final number is the season; for example **20s3** for 2020 Season 3. If a season or week isn't specified, the bot will return information about the current week and/or season.
+For some commands you can specify a particular week or season. To select a week you include a **w#** argument, where the # is replaced by the week you want; for example **w1** for week 1 of the season. To select a season you include a **##s#** argument, where the first two numbers are the year and the final number is the season; for example **20s3** for 2020 Season 3. If a season or week isn't specified, the bot will return information about the current week and/or season.
 
 For some commands where it makes sense, multiclass series you will need to provide an argument to specify which class you're interested in.
 
@@ -43,39 +43,39 @@ Displays a table of series and the abbreviations to use for each of them in all 
 Track schedule for a series. 
 
 Alias: `!sched`
-### `!driver [driver name] (category) (w\#) (\#\#s\#)`
+### `!driver [driver name] (category) (w#) (##s#)`
 Returns statistics about a driver's current season. If no category is provided the bot will return the output for the category that the driver has raced the most this season.
 
 Alias: `!dvr`
-### `!season [series abbrev] [driver name] (\#\#s\#)`
+### `!season [series abbrev] [driver name] (##s#)`
 Returns information about a driver for a single series.
 ### `!lastrace (category) (series abbrev)`
 Returns information about a driver's most recent race.
-### `!championship [series abbrev] (\#\#s\#)`
+### `!championship [series abbrev] (##s#)`
 Top 30 championship standings. 
 
 Alias: `!champ`
-### `!strengthoffield [series abbrev] (w\#) (\#\#s\#)`
+### `!strengthoffield [series abbrev] (w#) (##s#)`
 Strength of field heatmap for the series. 
 
 Alias: `!sof`
-### `!officialsessions [series abbrev] (w\#) (\#\#s\#)`
+### `!officialsessions [series abbrev] (w#) (##s#)`
 Official session count heatmap for the series. 
 
 Alias: `!offs`
-### `!participation [series abbrev] (w\#) (\#\#s\#)`
+### `!participation [series abbrev] (w#) (##s#)`
 Participation heatmap for the series. 
 
 Alias: `!part`
-### `!qualifyinglaps [series abbrev] (w\#) (\#\#s\#)`
+### `!qualifyinglaps [series abbrev] (w#) (##s#)`
 Best qualifying times. 
 
 Alias: `!qlaps`
-### `!racelaps [series abbrev] (w\#) (\#\#s\#)`
+### `!racelaps [series abbrev] (w#) (##s#)`
 The week's best race lap times. 
 
 Alias: `!rlaps`
-### `!averageracelaps [series abbrev] (w\#) (\#\#s\#)`
+### `!averageracelaps [series abbrev] (w#) (##s#)`
 The week's best average race lap times. 
 
 Alias: `!arlaps`
@@ -119,11 +119,11 @@ Removes a driver to a discord guild.
 Updates a driver's highlight color.
 
 ### Subscription Required Commands:
-### `!points [series abbrev] (\#\#s\#)`
+### `!points [series abbrev] (##s#)`
 Championship points of the team's drivers. 
 
 Alias: `!pts`
-### `!week [series abbrev] (w\#) (\#\#s\#)`
+### `!week [series abbrev] (w#) (##s#)`
 Current week's points of the team's drivers.
 ### `!drivers`
 Returns information about the team's drivers.
