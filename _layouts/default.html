@@ -51,9 +51,9 @@
         {% for nav in site.navigation %}
         <div class="topnav">
           {% if nav.url contains "://" %}
-            <a class="active" href="{{ nav.url }}">{{ nav.title }}</a>
+            <a href="{{ nav.url }}">{{ nav.title }}</a>
           {% else %}
-          <a class="active" href="{{ nav.url | relative_url }}">{{ nav.title }}</a>
+          <a chref="{{ nav.url | relative_url }}">{{ nav.title }}</a>
           {% endif %}
         </div>
         {% endfor %}
