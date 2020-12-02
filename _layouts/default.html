@@ -1,87 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <style>
-    body {
-      background-color: #1b1b1b;
-      color: #333333;
-    }
-    header h1:before {
-      background-image: url("assets/images/android-chrome-192x192.png");
-      padding: 0 192px;
-      content: " ";
-  }
-    .masonry-wrapper {
-      padding: 1.5em;
-      max-width: 960px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-    .masonry {
-      display: grid;
-      grid-template-columns: repeat(1, minmax(100px,1fr));
-      grid-gap: 10px;
-      grid-auto-rows: 0;
-    }
-    @media only screen and (max-width: 1023px) and (min-width: 768px) {
-      .masonry {
-        grid-template-columns: repeat(2, minmax(100px,1fr));
-      }
-    }
-    @media only screen and (min-width: 1024px) {
-      .masonry {
-        grid-template-columns: repeat(2, minmax(100px,1fr));
-      }
-    }
-    .masonry-item, .masonry-content {
-      border-radius: 4px;
-      overflow: hidden;
-    }
-    .masonry-item {
-      filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, .3));
-      transition: filter .25s ease-in-out;
-    }
-    .masonry-item:hover {
-      filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, .3));
-    }
-    .masonry-footer {
-      font-size: .75em;
-      opacity: .25;
-      text-align: center;
-      padding-top: 3em; 
-      padding-bottom: 3em;
-      margin-bottom: -1.5em;
-      transition: opacity 1s ease-in-out;
-    }
-    .masonry-footer a {
-      color: currentColor;
-    }
-    .masonry-footer:hover, .masonry-footer:active, .masonry-footer:focus {
-      opacity: .75;
-    }
-      header h1:before {
-      }
-      .topnav {
-        overflow: hidden;
-      }
-      .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-
-    </style>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
@@ -100,10 +23,15 @@
 
     <header>
       <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <div class="title">
+          <div class="icon"></div>
+          <div class="words">
+            <a id="a-title" href="{{ '/' | relative_url }}">
+              <h1>{{ site.title | default: site.github.repository_name }}</h1>
+              <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+            </a>
+          </div>
+        </div>
       
         <div class="topnav">
         {% for nav in site.navigation %}
