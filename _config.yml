@@ -5,7 +5,7 @@ navigation:
   - title: Home
     url: /
   - title: Commands
-    url: /#commands
+    url: /commands
   - title: Screenshots
     url: /screenshots.html
 github:
