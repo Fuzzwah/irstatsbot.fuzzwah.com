@@ -104,6 +104,6 @@ Many commands have a shorter alias that can be used.
 ### `!week [series abbrev] (w#) (##s#)`
 > Returns information about how many races the team's drivers have completed this week in the series, along with the number of championship points they have currently for the week.
 
-### `!drivers`
-> Returns a list of the team's drivers, along with some basic information such as number of races for the season, current iRating and iRating gain/loss for the season.
+### `!drivers (irchange)`
+> Returns a list of the team's drivers, along with some basic information such as number of races for the season, current iRating and iRating gain/loss for the season. If the `irchange` argument is provided the list of drivers will be sorted by iRating gained.
 

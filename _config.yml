@@ -7,7 +7,9 @@ navigation:
   - title: Commands
     url: /commands
   - title: Screenshots
-    url: /screenshots.html
+    url: /screenshots
+  - title: Demo Video
+    url: /demo_video
 github:
   is_project_page: false
   
