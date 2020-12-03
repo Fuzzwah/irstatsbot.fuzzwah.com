@@ -1,6 +1,6 @@
 theme: jekyll-theme-hacker
 title: iRacing Stats Discord Bot
-description: A Discord bot that allows users to access a range of statistical information about iRacing Series and Drivers
+description: A Discord bot that allows users to access a range of statistical information about iRacing Drivers, Championships, and Series
 navigation:
   - title: Home
     url: /
