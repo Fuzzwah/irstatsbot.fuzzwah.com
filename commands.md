@@ -1,10 +1,14 @@
+---
+title: iRacing Stats Discord Bot - Commands
+---
+
 ## Commands
 
 In the examples below, square brackets have been used to show the required arguments for each command. Round brackets have been used to show optional arguments that can be provided to provide more fine grained responses.
 
 For some commands you can specify a particular week or season. To select a week you include a **w#** argument, where the # is replaced by the week you want; for example **w1** for week 1 of the season. To select a season you include a **##s#** argument, where the first two numbers are the year and the final number is the season; for example **20s3** for 2020 Season 3. If a season or week isn't specified, the bot will return information about the current week and/or season.
 
-For some commands where it makes sense, multiclass series you will need to provide an argument to specify which class you're interested in.
+For some commands where it makes sense, if you specify a multiclass series you will need to provide an argument to also specify which class you're interested in.
 
 Many commands have a shorter alias that can be used.
 
@@ -91,7 +95,6 @@ Many commands have a shorter alias that can be used.
 
 ### `!remove_driver [driver name]`
 > Removes a driver to a discord guild.
-
 
 ### `!update_driver [driver name] [color hex]`
 > Updates a driver's highlight color.

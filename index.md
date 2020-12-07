@@ -1,3 +1,7 @@
+---
+title: iRacing Stats Discord Bot
+---
+
 ## Overview
 
 I have created a Discord bot that interacts with my iRacing Statistics database. The bot allows users to access a range of statistical information about iRacing Series and Drivers.
