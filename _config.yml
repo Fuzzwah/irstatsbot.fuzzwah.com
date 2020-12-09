@@ -10,6 +10,8 @@ navigation:
     url: /screenshots
   - title: Demo Video
     url: /demo_video
+  - title: Our Discord
+    url: /discord
 github:
   is_project_page: false
   
