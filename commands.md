@@ -20,12 +20,9 @@ Many commands have a shorter alias that can be used.
 > Track schedule for a series. 
 > Alias: `!sched`
 
-### `!driver [driver name] (category) (w#) (##s#)`
-> Returns statistics about a driver's current season. If no category is provided the bot will return the output for the category that the driver has raced the most this season.
+### `!driver [driver name] (category) (w#) (##s#) (series abbrev)`
+> Returns statistics about a driver's current season. If no category is provided the bot will return the output for the category that the driver has raced the most this season. You can also filter the information returned to a single series by providing a series abbreviation.
 > Alias: `!dvr`
-
-### `!season [series abbrev] [driver name] (##s#)`
-> Returns information about a driver for a single series.
 
 ### `!lastrace (category) (series abbrev)`
 > Returns information about a driver's most recent race.
