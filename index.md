@@ -2,6 +2,7 @@
 title: iRacing Stats Discord Bot
 ---
 
+![screenies](https://irstatsbot.fuzzwah.com/assets/images/screenshots_isometric_930.png)
 ## Overview
 
 I have created a Discord bot that interacts with my iRacing Statistics database. The bot allows users to access a range of statistical information about iRacing Series and Drivers.
