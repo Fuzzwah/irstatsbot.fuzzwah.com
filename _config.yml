@@ -12,6 +12,8 @@ navigation:
     url: /demo_video
   - title: Our Discord
     url: /discord
+  - title: Dev Log
+    url: /devlog
 github:
   is_project_page: false
   
