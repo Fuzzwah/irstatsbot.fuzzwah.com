@@ -133,7 +133,8 @@ header h1:before {
 .devlog-wrapper {
     position: relative;
     width: 100%;
-    height: 0;
+    height: 1200;
+    padding-bottom: 10%;
 }
 
 .devlog-wrapper iframe {
